@@ -20,7 +20,7 @@ class App extends Component {
     };
 
     analyzeSentence() {
-        fetch('http://localhost:8080/sentiment', {
+        fetch('http://10.100.141.58:31396', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
